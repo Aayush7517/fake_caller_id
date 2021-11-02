@@ -7,17 +7,18 @@
     android:baselineAligned="false"
     android:orientation="vertical"
     android:padding="30dp"
+    android:background="@color/colorAccent"
     tools:context=".MainActivity" >
 
     <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Enter Mobile No"
-        android:layout_marginTop="50dp"
-        android:textSize="24sp"
         android:id="@+id/txtno"
+        android:layout_width="339dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:hint="Enter Mobile No"
         android:inputType="phone"
-        />
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp" />
 
     <Button
         android:layout_width="match_parent"
@@ -29,4 +30,13 @@
         android:layout_marginTop="100dp"
         android:backgroundTint="@color/colorPrimary"
         />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Contact"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:id="@+id/cont"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/colorPrimary"/>
 </LinearLayout>
